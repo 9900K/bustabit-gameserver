@@ -108,7 +108,7 @@ module.exports = function(server,game,chat) {
                 return sendError(socket, '[place_bet] Must place a bet in multiples of 100, got: ' + amount);
             }
 
-            if (amount > 1e8) // 1 BTC limit
+            if (amount > 100e8) // 1 BTC limit
                 return sendError(socket, '[place_bet] Max bet size is 1 BTC got: ' + amount);
 
             if (!autoCashOut)
