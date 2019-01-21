@@ -7,7 +7,7 @@ var offset = 1e6;
 
 var games = 1e6;  // You might want to make this 10M for a prod setting..
 var game = games;
-var serverSeed = 'DO NOT USE THIS SEED';
+var serverSeed = 'xprv9s21ZrQH143K2JF8RafpqtKiTbsbaxEeUaMnNHsm5o6wCW3z8ySyH4UxFVSfZ8n7ESu7fgir8imbZKLYVBxFPND1pniTZ81vKfd45EHKX73';
 
 function loop(cb) {
     var parallel = Math.min(game, 1000);
