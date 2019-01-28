@@ -16,7 +16,7 @@
     "uuid": "^2.0.1"
   },
   "scripts": {
-    "start-dev": "env $(cat .env | xargs) nodemon server.js --use_strict",
+    "start-dev": "env $(cat ./gameconfig.env | xargs) nodemon server.js --use_strict",
     "start": "node server.js --use_strict"
   },
   "devDependencies": {}
